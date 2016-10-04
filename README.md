@@ -1,5 +1,5 @@
 # yii2-pq
-A paged query class for Yii2 to deal with PHP7 changed in mysqlnd
+A paged query class for Yii2 to deal with PHP7 changes in mysqlnd
 
 It will load your result set the same way as pagination works using `OFFSET` and `LIMIT`.
 
