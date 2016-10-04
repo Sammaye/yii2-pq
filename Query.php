@@ -4,7 +4,7 @@ namespace sammaye\pq;
 
 use Yii;
 use yii\db\Query as BaseQuery;
-use PagedQueryResult;
+use sammaye\pq\PagedQueryResult;
 
 class Query extends BaseQuery
 {
