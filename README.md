@@ -30,7 +30,7 @@ nature of PHP class inheritance and inclusion which means I would have to copy t
 ## Why?
 
 I noticed that many of my cronjobs failed after an upgrade to PHP7. It was not 
-long before I realised that there was two changes since PHP5.4:
+long before I realised that there were two changes since PHP5.4:
 
 - The default MySQL driver used by PHP7 has changed to mysqlnd
 - And, mysqlnd now adds your [result sets to it's own memory](http://php.net/manual/en/mysqlinfo.concepts.buffering.php), buffering queries
