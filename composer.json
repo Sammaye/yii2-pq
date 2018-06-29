@@ -1,5 +1,5 @@
 {
-	"name": "sammaye/yii2-pq",
+	"name": "ultimate-guitar/yii2-pq",
 	"description": "A paged query class for Yii2 to deal with PHP7 changed in mysqlnd",
 	"keywords": ["yii2", "pagination", "query", "db"],
 	"type": "yii2-extension",
