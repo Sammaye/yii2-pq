@@ -8,7 +8,7 @@
 namespace sammaye\pq;
 
 use Yii;
-use yii\base\Object;
+use yii\base\BaseObject;
 
 /**
  * BatchQueryResult represents a batch query from which you can retrieve data in batches.
@@ -29,7 +29,7 @@ use yii\base\Object;
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @since 2.0
  */
-class PagedQueryResult extends Object implements \Iterator
+class PagedQueryResult extends BaseObject implements \Iterator
 {
     /**
      * @var Connection the DB connection to be used when performing batch query.
