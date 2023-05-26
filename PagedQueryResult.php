@@ -7,7 +7,6 @@
 
 namespace sammaye\pq;
 
-use Yii;
 use yii\base\BaseObject;
 
 /**
@@ -135,7 +134,7 @@ class PagedQueryResult extends BaseObject implements \Iterator
             if ($this->query->indexBy !== null) {
                 $this->_key = key($this->_batch);
             } elseif (key($this->_batch) !== null) {
-                $this->_key++;
+                $this->_key = $this->_key === null ? 0 : $this->_key + 1;
             } else {
                 $this->_key = null;
             }

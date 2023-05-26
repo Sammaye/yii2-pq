@@ -32,7 +32,7 @@ class Query extends BaseQuery
     public function batch($batchSize = 100, $page = true, $db = null)
     {
         return Yii::createObject([
-            'class' => PagedQueryResult::className(),
+            'class' => PagedQueryResult::class,
             'query' => $this,
             'batchSize' => $batchSize,
             'db' => $db,
@@ -60,7 +60,7 @@ class Query extends BaseQuery
     public function each($batchSize = 100, $page = true, $db = null)
     {
         return Yii::createObject([
-            'class' => PagedQueryResult::className(),
+            'class' => PagedQueryResult::class,
             'query' => $this,
             'batchSize' => $batchSize,
             'db' => $db,
